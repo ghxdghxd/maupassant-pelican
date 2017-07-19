@@ -7,7 +7,7 @@ A pelican theme ported from [maupassant-hexo](https://github.com/tufu9441/maupas
 `cd` into your blog folder. Then
 
 ```bash
-git clone https://github.com/wormtooth/maupassant-pelican ./maupassant
+git clone https://github.com/shinigamiryuk/maupassant-pelican ./maupassant
 ```
 
 Then change/add `THEME` option in **pelicanconf.py** to

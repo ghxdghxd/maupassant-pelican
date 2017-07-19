@@ -32,6 +32,15 @@ body {
     margin: 0 auto;
 }
 
+#short_image {
+	border-radius: 50%;
+	max-width: 10%;
+	max-height: 10%;
+	padding-left: 2%;
+	padding-top: inherit;
+}
+
+
 .content_container {
     padding-right: 50px;
     padding-top: 20px;

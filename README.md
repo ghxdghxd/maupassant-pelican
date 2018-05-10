@@ -2,6 +2,8 @@
 
 A pelican theme ported from [maupassant-hexo](https://github.com/tufu9441/maupassant-hexo) by [tufu9441](https://github.com/tufu9441), which originated from [maupassant](https://github.com/pagecho/maupassant/) by [cho](https://github.com/pagecho).
 
+> 自改自用
+
 ## Installation
 
 `cd` into your blog folder. Then
@@ -51,11 +53,11 @@ You can make your own widgets by creating a corresponding html file in the **tem
 
 ### Comments
 
-Only Disqus commenting system is supported right now. 
+Only Disqus commenting system is supported right now.
 
-`DISQUS_SHORTNAME`: It is a string representing your Disqus shortname. 
+`DISQUS_SHORTNAME`: It is a string representing your Disqus shortname.
 
-Comments by default are enabled for articles and are closed for pages. You can enable/disable comments on certain articles or articles by providing `comments` keyword in the front matter. 
+Comments by default are enabled for articles and are closed for pages. You can enable/disable comments on certain articles or articles by providing `comments` keyword in the front matter.
 
 To enable: `comments: True`
 
@@ -77,7 +79,8 @@ The theme can recognize **favicon.ico** in its theme folder. So put your logo in
 
 If `<!--more-->` is put somewhere in an article, article content until `<!--more-->` will be used as summary shown on index pages. If there is no such tag, `article.summary` will be used.
 
-## Maupassant on other platforms:
+## Maupassant on other platforms
+
 - Typecho：[https://github.com/pagecho/maupassant/](https://github.com/pagecho/maupassant/)
 - Octopress：[https://github.com/pagecho/mewpassant/](https://github.com/pagecho/mewpassant/)
 - Farbox：[https://github.com/pagecho/Maupassant-farbox/](https://github.com/pagecho/Maupassant-farbox/)

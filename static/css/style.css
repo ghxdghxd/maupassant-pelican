@@ -40,6 +40,14 @@ body {
 	padding-top: inherit;
 }
 
+#logo_image {
+	border-radius: 50%;
+	max-width: 80%;
+    max-height: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
 
 .content_container {
     padding-right: 50px;

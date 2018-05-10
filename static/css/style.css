@@ -249,7 +249,7 @@ div {
     padding: 0;
     margin: 15px 0 0;
     color: #6E7173;
-    float: left;
+    /* float: left; */
     display: inline;
     text-indent: .15em;
 }
@@ -276,7 +276,7 @@ div {
     padding: 0;
     margin: 15px 0 0;
     color: #6E7173;
-    float: right;
+    /* float: right; */
     display: inline;
     text-indent: .15em;
 }
@@ -295,7 +295,7 @@ div {
     padding: 0;
     margin: 15px 0 0;
     color: #6E7173;
-    float: right;
+    /* float: right; */
     display: inline;
     text-indent: .15em;
 }
@@ -319,6 +319,7 @@ div {
     text-align: justify;
     text-justify: distribute;
     word-break: normal;
+    border-bottom: 2px inset #ddd;
 }
 
 .post .post-content h2 {
@@ -689,7 +690,7 @@ p.readmore a:hover {
     font-size: 15px;
     color: #555;
     border-bottom: none;
-    float: left;
+    /* float: left; */
 }
 
 .post-nav a.pre {
@@ -817,7 +818,7 @@ table tr:nth-child(2n) {
 }
 
 .article-share-links {
-    clearfix: none;
+    /* clearfix: none; */
     background: #eee;
 }
 

@@ -1,13 +1,11 @@
 {% extends 'base.html' %} 
 
-{% block title %} 
-<!-- Search - {{ SITENAME|striptags }} -->
+{% block title %}
 {{ _('Search') }} - {{ super() }}
 {% endblock title %}
 
 {% block content %}
-<script type="text/javascript" src="//code.jquery.com/jquery-3.3.1.min.js">
-</script>
+<script type="text/javascript" src="//code.jquery.com/jquery-3.3.1.min.js"></script>
 <script type="text/javascript" src="{{ SITEURL }}/theme/tipuesearch/tipuesearch_set.js"></script>
 <script type="text/javascript" src="{{ SITEURL }}/theme/tipuesearch/tipuesearch.min.js"></script>
 

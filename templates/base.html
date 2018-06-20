@@ -22,7 +22,8 @@
     <link rel="stylesheet" type="text/css" href="//cdn.bootcss.com/pure/0.6.2/pure-min.css" />
     <link rel="stylesheet" type="text/css" href="//cdn.bootcss.com/pure/0.6.2/grids-responsive-min.css" />
     <link rel="stylesheet" href="//cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" />
-    <script type="text/javascript" src="//cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="//cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+    
     <link rel="Shortcut Icon" type="image/x-icon" href="/{{ THEME_STATIC_DIR }}/images/favicon.ico" />
     {% endblock head %}
     {% if 'tipue_search' in PLUGINS %}
@@ -55,11 +56,12 @@
     </div>
     <div id="layout" class="pure-g">
         <div class="pure-u-1 pure-u-md-3-4"><div class="content_container">
+            {% include 'searchform.html' %}
             {% block content %}
             {% endblock content %}
         </div></div>
         <div class="pure-u-1-4 hidden_mid_and_down"><div id="sidebar">
-            {% for item in WIDGETS or ('search', 'logo', 'category', 'tag', 'recent_articles', 'recent_comments', 'links') %}
+            {% for item in WIDGETS or ('logo', 'category', 'tag', 'recent_articles', 'recent_comments', 'links') %}
                 {% include 'widgets/{}.html'.format(item) %}
             {% endfor %}
         </div></div>
